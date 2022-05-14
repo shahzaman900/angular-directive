@@ -1,0 +1,46 @@
+.paginator-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.disable {
+    background-color: rgb(194, 194, 194);
+    pointer-events: none;
+    cursor: none;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+li.active {
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 4px;
+    user-select: none;
+}
+
+a.active {
+    color: white;
+    background-color: blue;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
